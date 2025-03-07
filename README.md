@@ -4,6 +4,6 @@
 ICCV 2025 under review (Paper ID 2042)
 
 # Run Training
-···
+```
 bash scripts/train.sh
-···
+```
