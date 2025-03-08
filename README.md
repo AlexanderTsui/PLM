@@ -19,6 +19,11 @@ python setup.py install --force_cuda --blas=openblas
 pip install hydra-core loguru albumentations open3d
 ```
 
+Install PointNet++
+```
+pip install "git+https://github.com/erikwijmans/Pointnet2_PyTorch.git#egg=pointnet2_ops&subdirectory=pointnet2_ops_lib"
+```
+
 # Run Training
 ```
 bash scripts/train.sh
