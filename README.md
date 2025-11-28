@@ -1,6 +1,6 @@
 # Point Linguist Model
 
-> Offical Repo of paper _Segment Any Object via Bridged Large 3D-Language Model_
+> Offical Repo of paper [_Segment Any Object via Bridged Large 3D-Language Model_](https://arxiv.org/abs/2509.07825)
 
 # Preparing data
 
