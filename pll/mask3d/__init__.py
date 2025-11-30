@@ -5,7 +5,6 @@ import sys
 sys.path.append("./pll")
 
 from mask3d.models.mask3d import Mask3D
-from mask3d.models.mask3d_clip import Mask3DClip
 from mask3d.utils.utils import (
     load_checkpoint_with_missing_or_exsessive_keys,
     load_backbone_checkpoint_with_missing_or_exsessive_keys,
