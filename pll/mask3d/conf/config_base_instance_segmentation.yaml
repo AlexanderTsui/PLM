@@ -52,16 +52,7 @@ general:
 
 defaults:
   - data: indoor
-  - data/data_loaders: simple_loader
-  - data/datasets: scannet
-  - data/collation_functions: voxelize_collate
-  - logging: full
   - model: mask3d
-  - metrics: miou
-  - optimizer: adamw
-  - scheduler: onecyclelr
-  - trainer: trainer600
-  - callbacks: callbacks_instance_segmentation
   - matcher: hungarian_matcher
   - loss: set_criterion
 
